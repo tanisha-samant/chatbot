@@ -1,0 +1,162 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "Hey there", "What's up", "How are you"],
+      "responses": ["Hello!", "Hi there!", "Hey!", "Greetings!", "Hi! How can I help you?", "Good to see you! How can I assist?", "How can I help you today?","I am good, thanks for asking! How can I assist you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "Take care", "Catch you later"],
+      "responses": ["Goodbye!", "See you later!", "Take care!", "It was nice talking to you!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Appreciate it", "Much obliged"],
+      "responses": ["You're welcome!", "Glad to help!", "Anytime!", "No problem!"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What's your name?", "Who are you?", "What can I call you?"],
+      "responses": ["I'm ChatBot, your AI assistant.", "You can call me ChatBot!", "ChatBot at your service."]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["Who made you?", "Who created you?", "Who is your developer?"],
+      "responses": ["I was created by a brilliant developer!", "A human with great coding skills made me.", "My creator is still teaching me new things."]
+    },
+    {
+      "tag": "age",
+      "patterns": ["How old are you?", "What’s your age?", "When were you made?"],
+      "responses": ["I’m timeless 😄", "I don't age like humans do.", "I was born in the cloud!"]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Make me laugh", "Say something funny"],
+      "responses": [
+        "Why don't programmers like nature? It has too many bugs.",
+        "Why did the computer show up at work late? It had a hard drive.",
+        "Why was the JavaScript developer sad? Because he didn’t Node how to Express himself."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather like?", "Is it raining?", "How's the weather today?"],
+      "responses": ["I'm not connected to live weather, but I hope it's sunny where you are!", "You might want to check a weather app for real-time info."]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What time is it?", "Tell me the time", "Current time please"],
+      "responses": ["I can't see your clock, but I bet your system knows!", "Time flies when we're chatting!"]
+    },
+    {
+      "tag": "date",
+      "patterns": ["What's the date today?", "Tell me the date", "Which day is it?"],
+      "responses": ["Check your system calendar 😄", "Every day is a good day to learn something new!"]
+    },
+    {
+      "tag": "advice",
+      "patterns": ["Give me advice", "I need advice", "What should I do?"],
+      "responses": ["Follow your heart but take your brain with you.", "Start small. Focus. Be consistent.", "Progress > Perfection."]
+    },
+    {
+      "tag": "motivation",
+      "patterns": ["Motivate me", "I feel down", "Say something inspiring"],
+      "responses": [
+        "You're doing better than you think!",
+        "Every expert was once a beginner.",
+        "Don't watch the clock; do what it does. Keep going."
+      ]
+    },
+    {
+      "tag": "fact",
+      "patterns": ["Tell me a fact", "Fun fact", "Give me trivia"],
+      "responses": [
+        "Octopuses have three hearts.",
+        "Honey never spoils. Archaeologists have found 3000-year-old jars of honey that still taste good.",
+        "Bananas are berries, but strawberries aren't."
+      ]
+    },
+    {
+      "tag": "python",
+      "patterns": ["What is Python?", "Tell me about Python", "Is Python easy?"],
+      "responses": [
+        "Python is a popular, beginner-friendly programming language used in web dev, AI, data science, and more.",
+        "Yes, Python is easy to learn and powerful!",
+        "It's known for its clean syntax and huge library support."
+      ]
+    },
+    {
+      "tag": "programming_help",
+      "patterns": ["How do I learn programming?", "Give tips for coding", "Help me with coding"],
+      "responses": [
+        "Start with one language (like Python), build small projects, and practice daily.",
+        "Focus on logic and problem-solving. Tools will follow.",
+        "Consistency is the key to becoming a great programmer!"
+      ]
+    },
+    {
+      "tag": "mental_health",
+      "patterns": ["I'm sad", "I feel anxious", "I'm stressed"],
+      "responses": [
+        "You're not alone. It's okay to feel that way.",
+        "Try taking deep breaths and talk to someone you trust.",
+        "If you're struggling, please consider reaching out to a professional. You matter."
+      ]
+    },
+    {
+      "tag": "sleep",
+      "patterns": ["I'm tired", "I need sleep", "Can't sleep"],
+      "responses": [
+        "Try turning off screens and relaxing before bed.",
+        "Sleep is super important. Try to get enough rest tonight!",
+        "A good night’s sleep can change everything tomorrow."
+      ]
+    },
+    {
+      "tag": "study",
+      "patterns": ["I need to study", "Help me study", "Can't focus"],
+      "responses": [
+        "Use the Pomodoro technique: 25 minutes focus, 5 minutes break.",
+        "Eliminate distractions. Set small goals.",
+        "You got this! One page, one concept at a time."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": ["I'm hungry", "What should I eat?", "Suggest food"],
+      "responses": [
+        "How about a snack and water to stay energized?",
+        "Eat something healthy and tasty!",
+        "Treat yourself to your favorite meal today 🍕"
+      ]
+    },
+    {
+      "tag": "hobby",
+      "patterns": ["What hobby should I try?", "Suggest a hobby", "I'm bored"],
+      "responses": [
+        "Try drawing, journaling, or learning guitar!",
+        "Explore coding, reading, or photography.",
+        "Hobbies are a great way to relax and grow!"
+      ]
+    },
+    {
+      "tag": "bored",
+      "patterns": ["I'm bored", "Nothing to do", "Suggest something fun"],
+      "responses": [
+        "Read a book, explore a new YouTube channel, or try a coding challenge!",
+        "Call a friend, go for a walk, or play a game!",
+        "How about learning a magic trick? 😄"
+      ]
+    },
+    {
+      "tag": "default",
+      "patterns": [],
+      "responses": [
+        "I'm not sure I understand. Can you rephrase?",
+        "Hmm... I don’t have a response for that yet.",
+        "Can you try asking something else?"
+      ]
+    }
+  ]
+}
